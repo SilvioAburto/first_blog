@@ -10,6 +10,7 @@ h2 {
   font-family: 'Archivo Black', sans-serif;
 }
 
+
 /* ------------------------------------
    Navigation
 */
@@ -38,30 +39,32 @@ h2 {
    Jumbotron
 */
 .jumbotron.jumbotron-fluid {
-  background-color: black;
+  background-image: linear-gradient(to bottom, #6c98dd,white);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 5rem;
   padding-bottom: 5rem;
-  color: white;
+  color: black;
 }
 
 
 /* ------------------------------------
    -text Me
 */
-.about-me .container .col-md-4 {
+.my_photo {
   background-size: cover;
-  background-image: url("../images/about_pic.jpg");
+  background-image: url("../images/silvio_ortiz.jpg");
   background-position:center;
   background-repeat:no-repeat;
-  height: 500px;
+  height: 500px;  
+  width:350px;
   border-radius: 15px;
 }
 
+
 .col-md-8 {
-  padding-left: 0px;
+  padding-left: 20px;
   top:50px;
 }
 
@@ -78,9 +81,7 @@ h2 {
   margin-top: 100px;
 }
 
-.row.extra {
-  margin-top: 100px;
-}
+
 
 .pics img {
   display: block;
@@ -94,25 +95,16 @@ h2 {
 }
 
 
-/* ------------------------------------
-   Footer
-*/
+
 footer {
   margin-top: 100px;
   padding-left: 25px;
-  background-color: gray;
-  color: black;
+  background-color: black;
+  color: white;
   height: 60px;
+  display: flex;
   align-items: center;
   padding-top: 15px;
-  font-size:18px;
-  font-weight: bold;
-
-}
-
-footer a {
-  color:black;
-  font-size:18px;
 }
 
 .footer ul {
