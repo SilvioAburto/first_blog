@@ -53,11 +53,11 @@ h2 {
    -text Me
 */
 .my_photo {
-  background-size: 260px 350px;
+  background-size: 260px 340px;
   background-image: url("../images/silvio_ortiz.jpg");
   background-position:center;
   background-repeat:no-repeat;
-  height: 350px;  
+  height: 340px;  
   width:260px;
   border-radius: 15px;
 }
@@ -111,7 +111,7 @@ footer {
   color: white;
   height: 60px;
   display: flex;
-  padding-top: 15px;
+  padding-top: 30px;
 }
 
 
