@@ -53,19 +53,23 @@ h2 {
    -text Me
 */
 .my_photo {
-  background-size: cover;
+  background-size: 260px 350px;
   background-image: url("../images/silvio_ortiz.jpg");
   background-position:center;
   background-repeat:no-repeat;
-  height: 500px;  
-  width:350px;
+  height: 350px;  
+  width:260px;
   border-radius: 15px;
 }
 
+.col-md-4 {
+  left:10%;
+  padding-left: 20px;
+}
 
 .col-md-8 {
   padding-left: 20px;
-  top:50px;
+
 }
 
 .about-text-title {
@@ -97,15 +101,19 @@ h2 {
 
 
 footer {
+  position:absolute;
+  bottom:0;
+  left:20px;
+  width:100%;
   margin-top: 100px;
-  padding-left: 25px;
+  padding-left: 40px;
   background-color: black;
   color: white;
   height: 60px;
   display: flex;
-  align-items: center;
   padding-top: 15px;
 }
+
 
 .footer ul {
   list-style-type: none;
