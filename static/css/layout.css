@@ -54,9 +54,14 @@ h2 {
 
 .col-md-8 {
   padding-left: 20px;
+  padding-bottom:20px;
 
 }
 
+.col-md-8 {
+   height:40px;
+
+}
 .about-text-title {
   font-size: 30px;
   font-weight: bold;
@@ -132,9 +137,13 @@ footer {
   padding-left: 40px;
   background-color: black;
   color: white;
-  height: 60px;
+  height: 50px;
   display: flex;
+<<<<<<< HEAD
   padding-top: 15px;
+=======
+  padding-top: 8px;
+>>>>>>> ffe39434bd373b5e25f3ec496d597b0cfc93b69e
 }
 
 
