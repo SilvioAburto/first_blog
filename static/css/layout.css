@@ -11,27 +11,12 @@ h2 {
 }
 
 
-/* ------------------------------------
-   Navigation
-*/
-/* Do this if you want to change the color of the navbar */
 .navbar.bg-dark {
   background-color: black !important;
 }
 
 .navbar-dark .navbar-nav .nav-link {
   color: white;
-}
-
-/* This will insert a space of height 75px before every id:
-   https://github.com/twbs/bootstrap/issues/1768 check the solution from @mnot
-*/
-*[id]:before {
-  display: block;
-  content: " ";
-  margin-top: -75px;
-  height: 75px;
-  visibility: hidden;
 }
 
 
@@ -53,11 +38,11 @@ h2 {
    -text Me
 */
 .my_photo {
-  background-size: 260px 340px;
+  background-size: 260px 280px;
   background-image: url("../images/silvio_ortiz.jpg");
   background-position:center;
   background-repeat:no-repeat;
-  height: 340px;  
+  height: 320px;  
   width:260px;
   border-radius: 15px;
 }
@@ -93,17 +78,55 @@ h2 {
   margin: auto;
 }
 
-.project-title {
+.projects-title {
   font-size: 20px;
+  text-align: center;
   font-weight: bold;
+}
+
+
+.project1 {
+  width: 50%;
+  margin-left:10px;
+
+}
+
+.p1_title {
+  font-size:22px;
+  font-weight: bold;
+  color:purple;
+
+
+}
+.commodity_description {
+  font-size: 18px;
+  text-align: left;
+  font-weight: bold;
+  position: absolute;
+  width: 20%;
+  margin-left: 5%;
+
+}
+
+.commodity_app_photo{
+
+  background-size: cover;
+  background-image: url("../images/commodity_shiny_app.jpg");
+  background-position:center;
+  background-repeat:no-repeat;
+  height: 400px;  
+  width:350px;
+  margin-left: 60%;
+  border-radius: 15px;
+
 }
 
 
 
 footer {
   position:absolute;
-  bottom:0;
-  left:20px;
+  bottom:0px;
+  left:10px;
   width:100%;
   margin-top: 100px;
   padding-left: 40px;
@@ -111,7 +134,7 @@ footer {
   color: white;
   height: 60px;
   display: flex;
-  padding-top: 30px;
+  padding-top: 15px;
 }
 
 
