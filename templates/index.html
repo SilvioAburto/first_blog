@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Silvio Projects</title>
+    <title>Silvio Ortiz Aburto</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.css">
@@ -15,13 +15,11 @@
 
   <body>
 
-
     <section>
       <header>
         <!-- fixed-top makes the navbar stick to the top of the screen as the user is scrolling -->
         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-
-          <div>
+          <div class="collapse navbar-collapse">
             <!-- removing ml-auto below makes content of navbar to the left, but not the logo -->
             <ul class="navbar-nav ml-auto">
               <li class="nav-item">
@@ -34,52 +32,75 @@
                 <a class="nav-link" href="/tutorials.html">Tutorials</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/my_photos.html">Photos</a>
+                <a class="nav-link" href="/photos.html">Photos</a>
               </li>
             </ul>
-            <!---
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="/index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/projects.html">Projects</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/tutorials.html">Tutorials</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="/my_photos.html">Photos</a>
-              </li>
-            </ul> -->
-
           </div>
         </nav>
       </header>
     </section>
 
-
-        <!--  Jumbotron Section -->
+  <main>
+    <!--  Jumbotron Section -->
     <div class="jumbotron jumbotron-fluid">
-      <div class="projects-title">
-
-        <h1>My Projects</h1>
+      <div class="container-fluid">
+        <h1>Silvio Ortiz</h1>
+        <h3> Biotech Professional </h3>
       </div>
     </div>
 
-    <!-- Main Section -->
-    <div class="container-fluid">
-        <div class="project1">
-          <div class="commodity_description">
-            <div class="p1_title">Shiny App on Nicaraguan commodity imports and exports</div>
-            I was born and raised in Nicaragua and I was really interested in working on a project about the country. I found that the United Nations have a database with import/export commodity informations for most countries. 
-            This was a great data set to learn how to use leaflet and how to work with json data. 
-          </div>
-          <a href="https://sortizaburto.shinyapps.io/final_project/">
-            <div class="commodity_app_photo"></div>
-          </a>
+
+    <!-- *************************************
+      About Me Section
+    -->
+    <div class="about-me" id="aboutme">
+      <div class="container">
+
+      <div class="row">
+        <div class="col-md-3">
+            <div class="my_photo"></div>
         </div>
+
+        <div class="col-md-2">
+        </div>
+        <div class = "col-md-7">
+            <div class="about-text">
+              <h2>About me:</h2>
+              <p>Graduated from UC Davis with a BS in Biochemestry and Molecular Biology.</p>
+              <p>In the past year I have found interest in how computers allow us to automate workflows and also answer insighful questions.
+                Some of my favorite topics are data science, machine learning and web app development.</p>
+              <p> I like to dig into data to extract patterns, useful statistics and provide insighful conclusions.
+                I will be using this site to post topics or personal projects related to data science, bioinformatics, and web development.</p>
+            </div>
+
+            <div class="about-text">
+              <h2>Languages:</h2>
+              <li>R; Proficient</li>
+              <li>SQL; Intermediate</li>
+              <li>Python; Intermediate.</li>
+              <li>HTML; Intermediate</li>
+              <li>CSS; Beginner</li>
+              <li>JavaScript; Beginner</li>
+            </div>
+
+          </div> <!--- end of col md 9 -->
+
+
+        </div> <!-- enf of row -->
+        
+        <div class="row>
+           <div class="col-md-12"></div>
+        </div>
+                                 
+      </div> <!-- end of container -->
+
     </div>
+
+
+</main>
+
+
+
   <!-- Footer Section-->
 
   <footer class="row footer">
@@ -87,7 +108,7 @@
     <ul>
       <a target="_blank" href="https://www.linkedin.com/in/silvio-ortiz-aburto/"><li>LinkedIn</li></a>
       <li> | </li>
-      <a target="_blank" href="../static/docs/ortiz_silvio_resume.pdf"><li>Resume</li></a>
+      <a target="_blank" href="/static/docs/ortiz_silvio_resume.pdf"><li>Resume</li></a>
       <li> | </li>
       <a href="mailto:silviortiz93@gmail.com"><li>Email</li></a>
     </ul>
